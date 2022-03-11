@@ -1,0 +1,52 @@
+<html>
+		<meta charset="utf-8">
+		<title> 
+			* Signos love *
+		</title>
+		<link rel="shortcut icon" type="image/x-icon" href="monachina.ico">
+		<script src="script/script.js"></script> <!-- para enlazar archivoz script con html-->
+		<link rel="stylesheet" href="color.css"> <!-- enlezar archivos css con html se realiza en head para mas placer-->			 		
+		<style>
+			.center{				
+				display:block;				
+				margin-left:auto;	  
+				margin-right:auto;
+				width:auto;
+				text-align:center;
+			}
+		</style> <!-- margenes de la pagina -->
+	</head>
+	<body>
+		<h1 align="center">
+			<font size=10> 
+					<span class="normal">
+						<span class="blue"> Como saber </span>
+						<span class="orange">tu signo </span> 
+						<span class="green"> del zodiaco</span>
+					</span>	 
+			</font> 
+		</h1>
+		<div class="alinear_flex">
+			<p class="solid"> <img src="coneja2.gif" alt="koneja culia "> </p>
+		</div>
+			<form name="formulario">
+			<fieldset>
+				<legend>Datos</legend>
+				<label> Dia de nacimiento </label>
+				<input type="number" name="dia" max="31" min="1" step="" required="">
+				<label> Mes de nacimiento </label>
+				<input type="number" name="mes" max="12" min="1" step="" required="">
+				<input value="Averiguar" type="button" onclick="zood();">	
+				<input value="reset" type="button" onclick="location.reload()"/>
+			</fieldset>
+			<div class="alinear_flex">
+				<p> <img id="imagenes" src="../page zodico/signos/signos.jpg" width="640" height="480" alt="imagen del signo"></p>
+			</div>
+			</form>
+	</body>
+</html>
+
+	<!-- BORRAR TODOS LOS ESTILOS Y HACERLOS EN CS ANADIR FORMULARIO PARA PEDIR NOMBRE Y DATOS DE FECHA  
+		BASE DE DATOS PARA GUARDAR LOS DATOS Y MOESTRARLOS EN PANTALLA SIN QUE SE BORREN PEDIR UN PEQUENO USUARIO-->
+ 
+		
